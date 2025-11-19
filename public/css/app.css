@@ -92,3 +92,30 @@ nav > div > span {
     color: white;
     padding: 2px 6px;
 }
+
+
+.groups{
+    padding-top: 8vh;
+}
+
+.new_group {
+    color: rgba(128, 128, 128, 0.722);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 5px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: gray;
+    padding: 1vh 5px;
+}
+
+.active_grp{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
