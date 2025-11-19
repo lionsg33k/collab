@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,43 +7,43 @@ body {
     overflow: hidden;
 }
 
-.container{
+.container {
     height: 100vh;
     display: flex;
     background-color: #f0f0f0;
 }
 
-.left{
-    width: 16% ;
+.left {
+    width: 16%;
     height: 100%;
     padding: 2vw;
 }
 
 
-.right{
+.right {
     margin-top: 1vh;
     width: 80%;
     height: 100%;
     background: #fff;
     border-radius: 5px;
-    padding: 2vh 0.5vw;
+    padding: 2vh 1vw;
     overflow: auto;
 }
 
 
 
-.side_header   {
+.side_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.side_header > img {
-width: 50%;
+.side_header>img {
+    width: 50%;
 }
 
 .search {
-    padding:  1vh 1vw;
+    padding: 1vh 1vw;
     background: white;
     display: flex;
     gap: 1vw;
@@ -51,37 +51,37 @@ width: 50%;
     margin: 4vh 0;
 }
 
-.search > input {
+.search>input {
     width: 100%;
     border: none;
     outline: none;
 }
 
-.search > svg {
+.search>svg {
     fill: gray;
 }
 
 
 nav {
-display: flex;
-flex-direction: column;
-gap: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
 }
 
-nav > div {
+nav>div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: gray;
 }
 
-nav > div > p {
+nav>div>p {
     display: flex;
     align-items: center;
     gap: 0.5vw;
 }
 
-nav > div > span {
+nav>div>span {
     background-color: white;
     padding: 0.2vw;
     border-radius: 5px;
@@ -94,8 +94,9 @@ nav > div > span {
 }
 
 
-.groups{
-    padding-top: 8vh;
+.groups {
+    padding: 6vh 0 1vh 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.212);
 }
 
 .new_group {
@@ -114,8 +115,56 @@ nav > div > span {
     padding: 1vh 5px;
 }
 
-.active_grp{
+.active_grp {
     background-color: white;
     border-radius: 10px;
     color: black;
+}
+
+.all_options>div {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding: 0.8vh 3vw;
+}
+
+.all_options {
+    margin-top: 6vh;
+    max-height: 10vh;
+    overflow-y: auto;
+}
+
+.all_options::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+    ;
+}
+
+.all_options::-webkit-scrollbar-thumb {
+    width: 2px;
+    background-color: rgba(128, 128, 128, 0.764);
+}
+
+.pt-6 {
+    padding-top: 6vh;
+}
+
+
+/*  right  */
+
+.right_header {
+    padding: 2vh 0;
+}
+
+.right_header > p {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.right_header>p>span {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    font-weight: bolder;
 }
